@@ -1,0 +1,351 @@
+@font-face{
+    font-family: "regular";
+    src: url("assets/fonts/Lato-Regular.ttf");
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "regular";
+}
+
+main{
+    padding: 20px auto;
+font-family: "regular";
+}
+
+header nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 0;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+li{
+    position: relative;
+    display: inline;
+    margin-left: 0.7rem;
+}
+ul{
+    padding: 0;
+    
+}
+
+.search{
+    position: absolute;
+display: inline;
+right: 0;
+margin-right: 10px;
+}
+
+#imgTr{
+    
+    display: flex;
+    background-image: url("../img/parallax1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px; 
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    background-color: black;
+    padding: 0.5rem;
+}
+
+.aboutMe{
+    width: 100%;
+}
+
+#textAbout p{
+    margin-bottom: 50px;
+}
+h2{
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.1rem;
+    color: black;
+    width: 100%;
+    margin: 0;
+    padding: 2.5rem 0 ;
+}
+
+h3{
+    text-align: center;
+    font-weight: 100;
+    font-size: 1rem;
+    font-style: italic;
+    color: black;
+    width: 100%;
+    margin: 0;
+    line-height: 1rem;
+    
+}
+
+.aboutMe{
+    width: 70%;
+    margin: 0 auto 3rem auto;
+    color: black;
+    
+}
+#presG{
+    display: flex;
+}
+.presName{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+h4{
+        text-align: center;
+        font-weight: 200;
+        font-size: 1rem;
+        justify-content: space-between;
+        color: black;
+        width: 100%;
+        margin:  3px;
+        padding: 1rem 0 ;
+    margin-bottom: 10px;
+}
+
+p{
+    line-height: 1.6rem;
+}
+
+.titreCo{
+    text-align: center;
+    font-weight: 100;
+    font-size: 1rem;
+    color: black;
+    width: 100%;
+    margin: 0;
+    padding: 1rem 0 ;
+}
+h5 {
+    font-size: 1rem;
+    padding: 0.4rem;
+    
+}
+#diagramme .diag {
+    text-align: center;
+    
+}
+#diagramme p{
+    letter-spacing: 1.1rem;
+}
+
+.diag{
+    background-color: lightgray;
+    height: 30px;
+    color: white;
+}
+
+.diagCam2{
+    background-color:grey;
+    height: 30px;
+    width: 90%;
+}
+
+.diagWeb2{
+    background-color: grey;
+    height: 30px;
+    width: 85%;
+}
+
+.diagImg2{
+    background-color: grey;
+    height: 30px;
+    width: 75%;
+}
+
+#Number{
+    
+   
+    background-color: grey;
+    margin-top: 40px;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.navNumber{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.navNumber span {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.navNumber div {
+    color: white;
+    text-align: center;
+    
+    width: 100%;
+    font-weight: 400;
+}
+
+#imgPr{
+ display: flex;
+    background-image: url("../img/parallax2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px; 
+    justify-content: center;
+    align-items: center;
+}
+
+#imgPr h1{
+  
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.8rem;
+}
+
+.imgWork{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem auto 3rem auto;
+    width: 70%;
+}
+
+.imgWork img{
+    width: 25%;
+    margin: 0;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.buttonMid{
+   display: flex;
+    border: none;
+    background-color: lightgrey;
+    color:black;
+    padding: 0.7rem ;
+    font-weight: 300;
+    font-size: 1rem;
+    margin: auto;
+}
+
+#imgCo{
+    display: flex;
+    background-image: url(../img/parallax3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px; 
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgCo h1{
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.8rem;
+}
+
+.img1{
+    
+    width: 33.33%;
+    height: 300px;
+}
+
+.img1 img{
+    width: 100%;
+}
+#contact1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+}
+.form{
+    width: 66.66%; 
+    height: 300px;
+    padding: 3px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.text3{
+    width: 50%;
+}
+
+.form2{
+    width: 100%;
+    
+    
+}
+
+form{
+    margin: 0 auto ;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input{
+    width: 45%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+
+
+textarea{
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 1.2rem 0.5rem 0.5rem;
+    
+}
+
+form button{
+    margin: 0;
+    padding: .6rem;
+    border:none;
+    background-color: black;
+    color: white;
+    float: right;
+    
+    
+    
+}
+
+.buttondiv{
+    width: 100%;
+}
+
+footer{
+    padding-top: 2rem;
+    height: 90px;
+    text-align: center;
+    background-color: grey;
+    
+}
+
+footer button { display: flex;
+    border: none;
+    background-color: lightgrey;
+    color:black;
+    padding: 0.9rem ;
+    font-weight: 300;
+    font-size: 1rem;
+    margin: auto;
+}
